@@ -1,0 +1,21 @@
+<form [formGroup]="userForm">
+  <h1>Cadastro</h1>
+
+  <input
+    type="text"
+    placeholder="Nome Completo"
+    formControlName="name"
+    required
+  />
+
+  <input type="text" placeholder="E-mail" formControlName="email" required />
+
+  <input
+    type="password"
+    placeholder="Senha"
+    formControlName="password"
+    required
+  />
+
+  <button (click)="create()">Cadastrar</button>
+</form>

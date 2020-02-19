@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "angular-auth": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-auth"
+    }
+  },
+  "defaultProject": "angular-auth",
+  "cli": {
+    "analytics": "7574f193-9c5d-4bad-bfef-5f7a41339bff"
+  }
 }
